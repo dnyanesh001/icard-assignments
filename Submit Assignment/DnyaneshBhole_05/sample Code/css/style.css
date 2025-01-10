@@ -1,0 +1,208 @@
+
+@font-face{
+    font-family: b;
+    src: url("../font/Roboto-Light.ttf");
+}
+@font-face{
+    font-family: c;
+    src: url("../font/Roboto-Thin.ttf");
+}
+h1{
+    display: inline;
+    font-family: b;
+    font-size: 11mm;
+    color: black;
+}
+b{
+    display: inline;
+    font-family: c;
+    font-size: 8mm;
+    color: rgb(71, 70, 70);
+}
+p{
+    display: inline;
+    font-family: b;
+    font-size: 6mm;
+    color: rgb(80, 79, 79);
+}
+body{
+    background-color: #b4b4b4;
+}
+.front{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 10mm;
+    height: 165mm;
+    width: 100mm;
+    background-color: white;
+}
+.logo{
+    position: absolute;
+    bottom: 15mm;
+    left: 35mm;
+    width: 30mm;
+    
+}
+.profile {
+    top: 50mm;
+    left: 34mm;
+    position: absolute;
+    height: 36mm;
+    width: 33mm;
+}
+.orange{
+    position: absolute;
+    width: 100mm;
+    height: 100mm;
+    background-color: #FF561F;
+    bottom: -71mm;
+    rotate: 45deg;
+}
+.orange1{
+    position: absolute;
+    width: 100mm;
+    height: 100mm;
+    background-color: #FF561F;
+    top: -57mm;
+    rotate: 45deg;
+}
+.qr {
+    left: 32mm;
+    top: 22mm;
+    position: absolute;
+    z-index: auto;
+    width: 36mm;
+}
+.info{
+    position: absolute; 
+    width: 100mm;
+    top: 10mm;
+}
+.info1{
+    position: absolute;
+    top: 70mm;
+    width: 100mm;
+}
+.date{
+    position: relative;
+    text-align: center;
+    display: block;
+    top: 94mm;
+}
+.yellow{
+    position: absolute;
+    width: 100mm;
+    height: 100mm;
+    background-color: #FFC406;
+    left: 89mm;
+    bottom: -33mm;
+    rotate: 45deg;
+}
+.yellow1 {
+    position: absolute;
+    width: 100mm;
+    height: 100mm;
+    background-color: #FFC406;
+    left: 77mm;
+    bottom: -50mm;
+    rotate: 45deg;
+}
+.black{
+    position: absolute;
+    width: 9mm;
+    height: 9mm;
+    background-color: black;
+    margin: 5mm;
+    bottom: 10mm;
+}
+.black1{
+    position: absolute;
+    width: 9mm;
+    height: 9mm;
+    background-color: black;
+    bottom: 8mm;
+    left: 45mm;
+    rotate: 45deg;
+}
+.orPostion1 {
+    bottom: -99mm;
+    left: -18.6mm;
+    text-align: center;
+}
+.orPostion2{
+    top: 152mm;
+    left: 2mm;
+    text-align: center;
+}
+.orangePattern1{
+    position: relative;
+    rotate: 45deg;
+    border: #FF561F;
+    border-width: 1mm;
+    border-style: solid;
+    width: 35mm;
+    height: 35mm;
+}
+.orangePattern2{
+    position: relative;
+    top: 2.5mm;
+    left: 2.5mm;
+    border:#FF561F;
+    border-width: 1mm;
+    border-style: solid;
+    width: 28mm;
+    height: 28mm;
+}
+.orangePattern3{
+    position: relative;
+    top: 2.5mm;
+    left: 2.5mm;
+    border:#FF561F;
+    border-width: 1mm;
+    border-style: solid;
+    width: 21mm;
+    height: 21mm;
+}
+.orangePattern4{
+    position: absolute;
+    top: 2.5mm;
+    left: 2.5mm;
+    border:#FF561F;
+    border-width: 1mm;
+    border-style: solid;
+    width: 14mm;
+    height: 14mm;
+}
+.orangePattern5{
+    position: absolute;
+    top: 2.5mm;
+    left: 2.5mm;
+    border:#FF561F;
+    border-width: 1mm;
+    border-style: solid;
+    width: 7mm;
+    height: 7mm;
+
+}
+.orangePattern6{
+    position: absolute;
+    top: 2.5mm;
+    left: 2.5mm;
+    border:#FF561F;
+    border-width: 1mm;
+    border-style: solid;
+    width: 0mm;
+    height: 0mm;
+
+}
+.back{
+    position: relative;
+    display: inline-block;
+    margin: 10mm;
+    height: 165mm;
+    width: 100mm;
+    background-color: white;
+    overflow: hidden;
+}
